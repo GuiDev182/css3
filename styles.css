@@ -1,0 +1,26 @@
+/* ID */
+
+#id { 
+
+}
+/* CLASSE */
+.classe { 
+
+}
+
+
+/* CORES*/
+
+p{
+    color: blue ;
+    background-color: black;
+    background-color: rgb(red, green, blue);
+    background-color: rgba(red, green, blue, alpha); /* com transparencia */ 
+    background-image: url();
+    background-size: 200px 500px; /* dimensão da imagen (largura,altura)*/
+    background-repeat: repeat; /* repetir a imagem*/
+    background-position: left top; (horizontal,vertical)
+    border: 10px solid #000; /* (expessura da borda, tipo da borda, cor da borda) */
+    padding: 35px; /* margen */
+    background-clip: border-box;
+}
