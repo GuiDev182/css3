@@ -29,6 +29,7 @@
     background-size: 200px 500px; /* dimensão da imagen (largura,altura)*/
     background-repeat: repeat; /* repetir a imagem*/
     background-position: left top;/*(horizontal,vertical)*/
+    background: linear-gradient(to right, #f00, #000); /* gradiente(lado,cor1,cor2)*/
 }
 
 .border{
@@ -46,4 +47,31 @@
 
 .margin{
     margin: 35px 34px 20px 12px; /* margen(superior,direita,inferior,esquerda */
+    margin-top:100px; /*margen no topo */
+    margin-left: 0px;/*margen na esquerda */
+    margin-right: 0px; /*margen na direita */
+    margin-bottom: 0px; /*margen no topo */  
+}
+
+.padding{
+    padding: 15px 15px 15px 15px; /* margen interna(top,right,bottom,left)*/
+    
+}
+
+.sombra{
+    text-shadow: 10px 10px 3px #000;/*Sombra na letra(horizontal,vertical,blur,cor*/
+    box-shadow: 10px 10px 3px #000;/* sombra no objeto(horizontal,vertical,blur,cor*/
+}
+
+.texto{
+    text-align: center; /* alinhamento do texto*/
+    text-decoration: dashed; /*estilo do texto*/
+    text-transform: capitalize; /*transformar o texto em maisculo,minusculo,etc*/
+    text-overflow: clip; /*etermina como o conteúdo que ultrapassou a sua div e que não é mostrado ao usuário deve ser exibido.*/
+    text-indent: 0px; /*especifica a quantidade de recuo (espaço vazio) que é colocado antes de linhas de texto em um bloco.*/
+    letter-spacing: 3px ; /* configura o espaçamento das letras*/
+    line-height: normal; /* altura da linha*/
+    direction:rtl ; /* direção do texto*/
+    word-spacing: normal; /*espaçamento das palavras*/
+    white-space: normal; /* quebra de linha no conteiner*/
 }
