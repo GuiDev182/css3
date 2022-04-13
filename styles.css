@@ -75,3 +75,23 @@
     word-spacing: normal; /*espaçamento das palavras*/
     white-space: normal; /* quebra de linha no conteiner*/
 }
+
+.fontes{
+    font-family: Arial, Helvetica, sans-serif; /* fontes já carregadas*/
+    font-style: italic; /* estilo da fonte*/
+    font-size: 20px; /* tamanho da fonte*/
+    font-weight:bold ; /* peso da fonte*/
+    font-variant: small-caps; /* maiuscula,minuscula*/
+}
+
+.links{
+    a{
+        text-decoration: none; /*quando o mouse nao está sobre o link*/
+        color: #fff;
+        font-size: 20px;
+    }
+    a:hover{
+        text-decoration: solid; /* quando o mouse está sobre o link*/
+        color: #000; 
+    }
+}
