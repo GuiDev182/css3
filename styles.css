@@ -95,3 +95,7 @@
         color: #000; 
     }
 }
+
+.transformacao2D{
+    transform: translate(200px,0px); /* move de um ponto ao outro(x,y) */ 
+}
