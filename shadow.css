@@ -1,0 +1,4 @@
+.shadow {
+    text-shadow: 3px 3px 3px #000;/*Sombra na letra(horizontal,vertical,blur,cor*/
+    box-shadow: 3px 3px 3px #000;/* sombra no objeto(horizontal,vertical,blur,cor*/
+}

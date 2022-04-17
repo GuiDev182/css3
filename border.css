@@ -1,0 +1,16 @@
+.border {
+    border: 10px solid #000; /* BORDA GERAL */
+
+}
+
+.border1 {
+    border-style:dashed; /*estilo da borda*/
+    border-color: #000; /* corda borda*/
+    border-width: 16px; /* tamanho da borda*/
+    /*border-top: 15px; /*tamanho da borda do topo*/
+    /*border-bottom: 15px; /* tamanho da borda de baixo*/
+    /*border-left: 15px; /* tamanho da borda esquerda*/
+   /* border-right: 15px; /* tamanho da borda direita*/
+    border-radius: 15px  10px 10px 15px; /* arredondar os cantos */ 
+    /*border-image: url() round; /*coloca uma imagem na borda com volta*/
+}

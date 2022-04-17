@@ -1,0 +1,28 @@
+
+table, td, th{
+    border: 1px solid #000;
+}
+
+table{
+    width: 600px;
+    table-layout: fixed; /* distribui o mesmo valor para todas as colunas */
+    border-collapse: collapse; /*retira os espaçamentos da borda*/
+    border-spacing: 50px 10px; /*distancia do espaçamento(horizontal,vertical) */
+    empty-cells: hide; /* configura as celulas vazias*/
+}
+
+td, th {
+    height: 30px;
+    vertical-align: middle; /* alinhamento do texto na vertical*/
+    text-align: center; /* alinhamento na horizontal*/
+}
+
+th{
+    background-color: #8a8;
+    color: #fff;
+    font-size: 25px;
+}
+
+tr:nth-child(even){ /* preenche os elementos em pares = even */
+    background: #ddd;
+}

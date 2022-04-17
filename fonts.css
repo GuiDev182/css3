@@ -1,0 +1,7 @@
+.fonts {
+    font-family: Arial, Helvetica, sans-serif; /* fontes já carregadas*/
+    font-style: italic; /* estilo da fonte*/
+    font-size: 20px; /* tamanho da fonte*/
+    font-weight:bold ; /* peso da fonte*/
+    font-variant: small-caps; /* maiuscula,minuscula*/
+}

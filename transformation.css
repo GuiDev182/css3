@@ -1,0 +1,26 @@
+transformacao2D {
+    transform: translate(200px,0px); /* move de um ponto ao outro(x,y) */ 
+    transform: rotate(45deg); /* rotaciona um objeto(graus) */
+    transform: scale(2); /* aumenta o tamanho do objeto*/
+    transform: skewX(20deg); /* inclina o elemento para horizontal*/
+    transform: skewY(20deg); /* inclina o elemento para vertical*/
+    transform: matrix(scaleX,skewY,skewX,scaleY,translateX,translateY); /* usa todos os elementos*/
+    transform-origin:0% 0% ; /* definir o ponto de origem da forma(x,y)*/
+}
+
+.transformação3D {
+    transform:rotateY(45deg);
+    backface-visibility: hidden;
+    perspective: 15px;
+    
+}
+
+#dv1 {
+    width: 200px;
+    height: 200px;
+    border: 1px solid #000;
+}
+
+body{
+    perspective: 500px;
+}

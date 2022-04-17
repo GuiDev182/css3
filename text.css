@@ -1,0 +1,13 @@
+.text {
+    border: 1px solid;
+    text-align: center; /* alinhamento do texto*/
+    text-decoration: dashed; /*estilo do texto*/
+    text-transform: capitalize; /*transformar o texto em maisculo,minusculo,etc*/
+    text-overflow: clip; /*etermina como o conteúdo que ultrapassou a sua div e que não é mostrado ao usuário deve ser exibido.*/
+    text-indent: 0px; /*especifica a quantidade de recuo (espaço vazio) que é colocado antes de linhas de texto em um bloco.*/
+    letter-spacing: 3px ; /* configura o espaçamento das letras*/
+    line-height: normal; /* altura da linha*/
+    direction:rtl ; /* direção do texto*/
+    word-spacing: normal; /*espaçamento das palavras*/
+    white-space: normal; /* quebra de linha no conteiner*/
+}

@@ -1,0 +1,8 @@
+.margin {
+    margin: 35px 34px 20px 12px; /* margen(superior,direita,inferior,esquerda */
+    border: 1px solid;
+   /* margin-top:100px; /*margen no topo */
+   /* margin-left: 0px;/*margen na esquerda */
+    /*margin-right: 0px; /*margen na direita */
+   /* margin-bottom: 0px; /*margen no topo */  
+}

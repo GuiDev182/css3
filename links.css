@@ -1,0 +1,9 @@
+    .links {
+        text-decoration: none; /*quando o mouse nao está sobre o link*/
+        color: rgb(0, 0, 0);
+        font-size: 20px;
+    }
+    a:hover {
+        text-decoration: solid; /* quando o mouse está sobre o link*/
+        color: rgb(243, 13, 13); 
+    }

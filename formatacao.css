@@ -1,0 +1,26 @@
+
+.formatacao{
+    list-style: none;
+   /* list-style-type: square; /* mudar o marcador da lista */
+    /*list-style-image: url(img/marcador.png); /* colocar uma imagem no lugar do marcador*/
+    /*list-style-position: inside; /* posição do marcador*/
+    padding: 0px;
+}
+li{
+    display: table-cell;
+    vertical-align: middle;
+    text-align: center;
+    width: 200px;
+    height: 40px;
+    background-color: #f00;
+    border-right: 1px solid white;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+li:hover{
+    background-color: black;
+}
+

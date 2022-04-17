@@ -1,0 +1,13 @@
+.background {
+    background: #aaa url() repeat 0px 0px; /* BACKGROUND GERAL */ 
+    background-attachment: fixed; /* ROLAGEM DA IMAGEM DE FUNDO */ 
+    background-clip: border-box;/* (border-box, padding-box, content-box) */   
+    background-color: black; /* cord do fundo*/
+    background-color: rgb(red, green, blue); /* cores separadas*/
+    background-color: rgba(red, green, blue, alpha); /* com transparencia */ 
+    background-image: url(); /* colocar imagem no background*/
+    background-size: 200px 500px; /* dimensão da imagen (largura,altura)*/
+    background-repeat: repeat; /* repetir a imagem*/
+    background-position: left top;/*(horizontal,vertical)*/
+    background: linear-gradient(to right, #f00, #000); /* gradiente(lado,cor1,cor2)*/
+}
