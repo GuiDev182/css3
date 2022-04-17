@@ -1,0 +1,24 @@
+div, span{
+    border: 1px solid #000;
+    margin: 10px;
+    width: 200px;
+    height: 200px;
+}
+
+#d1{
+    display: block; /* estilo blocos*/
+    /*display: none; /* desabilita o elemento */ 
+    /*visibility: hidden; /* Apenas deixa o elemento invisivel */ 
+}
+#s1{
+    display: inline;    /* estilo em uma linha*/
+}
+
+#d2{
+    display: block;
+}
+
+
+#s2{
+    display: inline-block; /* estilo em uma linha respeitando os padroes block*/
+}
