@@ -1,0 +1,124 @@
+
+/*TODOS OS ELEMENTOS
+*{
+
+}
+
+/* ID */
+
+#id { 
+ 
+}
+/* CLASSE */
+.classe { 
+    
+}
+
+.color {
+    color: blue;   /* cor*/
+}
+ 
+.background {
+    background: #aaa url() repeat 0px 0px; /* BACKGROUND GERAL */ 
+    background-attachment: fixed; /* ROLAGEM DA IMAGEM DE FUNDO */ 
+    background-clip: border-box;/* (border-box, padding-box, content-box) */   
+    background-color: black; /* cord do fundo*/
+    background-color: rgb(red, green, blue); /* cores separadas*/
+    background-color: rgba(red, green, blue, alpha); /* com transparencia */ 
+    background-image: url(); /* colocar imagem no background*/
+    background-size: 200px 500px; /* dimensão da imagen (largura,altura)*/
+    background-repeat: repeat; /* repetir a imagem*/
+    background-position: left top;/*(horizontal,vertical)*/
+    background: linear-gradient(to right, #f00, #000); /* gradiente(lado,cor1,cor2)*/
+}
+
+.border {
+    border: 10px solid #000; /* BORDA GERAL */
+    border-style: dotted; /*estilo da borda*/
+    border-color: #000; /* corda borda*/
+    border-width: 16px; /* tamanho da borda*/
+    border-top: 15px; /*tamanho da borda do topo*/
+    border-bottom: 15px; /* tamanho da borda de baixo*/
+    border-left: 15px; /* tamanho da borda esquerda*/
+    border-right: 15px; /* tamanho da borda direita*/
+    border-radius: 15px  10px 10px 15px; /* arredondar os cantos */ 
+    border-image: url() round; /*coloca uma imagem na borda com volta*/
+}
+
+.margin {
+    margin: 35px 34px 20px 12px; /* margen(superior,direita,inferior,esquerda */
+    margin-top:100px; /*margen no topo */
+    margin-left: 0px;/*margen na esquerda */
+    margin-right: 0px; /*margen na direita */
+    margin-bottom: 0px; /*margen no topo */  
+}
+
+.padding {
+    padding: 15px 15px 15px 15px; /* margen interna(top,right,bottom,left)*/
+    
+}
+
+.sombra {
+    text-shadow: 10px 10px 3px #000;/*Sombra na letra(horizontal,vertical,blur,cor*/
+    box-shadow: 10px 10px 3px #000;/* sombra no objeto(horizontal,vertical,blur,cor*/
+}
+
+.texto {
+    text-align: center; /* alinhamento do texto*/
+    text-decoration: dashed; /*estilo do texto*/
+    text-transform: capitalize; /*transformar o texto em maisculo,minusculo,etc*/
+    text-overflow: clip; /*etermina como o conteúdo que ultrapassou a sua div e que não é mostrado ao usuário deve ser exibido.*/
+    text-indent: 0px; /*especifica a quantidade de recuo (espaço vazio) que é colocado antes de linhas de texto em um bloco.*/
+    letter-spacing: 3px ; /* configura o espaçamento das letras*/
+    line-height: normal; /* altura da linha*/
+    direction:rtl ; /* direção do texto*/
+    word-spacing: normal; /*espaçamento das palavras*/
+    white-space: normal; /* quebra de linha no conteiner*/
+}
+
+.fontes {
+    font-family: Arial, Helvetica, sans-serif; /* fontes já carregadas*/
+    font-style: italic; /* estilo da fonte*/
+    font-size: 20px; /* tamanho da fonte*/
+    font-weight:bold ; /* peso da fonte*/
+    font-variant: small-caps; /* maiuscula,minuscula*/
+}
+
+.links {
+    a{
+        text-decoration: none; /*quando o mouse nao está sobre o link*/
+        color: #fff;
+        font-size: 20px;
+    }
+    a:hover {
+        text-decoration: solid; /* quando o mouse está sobre o link*/
+        color: #000; 
+    }
+}
+
+.transformacao2D {
+    transform: translate(200px,0px); /* move de um ponto ao outro(x,y) */ 
+    transform: rotate(45deg); /* rotaciona um objeto(graus) */
+    transform: scale(2); /* aumenta o tamanho do objeto*/
+    transform: skewX(20deg); /* inclina o elemento para horizontal*/
+    transform: skewY(20deg); /* inclina o elemento para vertical*/
+    transform: matrix(scaleX,skewY,skewX,scaleY,translateX,translateY); /* usa todos os elementos*/
+    transform-origin:0% 0% ; /* definir o ponto de origem da forma(x,y)*/
+}
+
+.transformação3D {
+    transform:rotateY(45deg);
+    backface-visibility: hidden;
+    perspective: 15px;
+    
+}
+
+#dv1 {
+    width: 200px;
+    height: 200px;
+    border: 1px solid #000;
+}
+
+body{
+    perspective: 500px;
+}

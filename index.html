@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="cores.css">
+    <link rel="stylesheet" href="styles.css">
+    <title>Curso CSS3</title>
+</head>
+<body>
+    <div id="dv1" onclick="rotateYDIV()">
+        CFB
+    </div>
+    <script>
+        var y,n=0,ny=0,rotYINT;
+
+        function rotateYDIV(){
+            y=document.getElementById("dv1");
+            clearInterval(rotYINT);
+            rotYINT=setInterval("startYRotate()",10);
+        }
+
+        function startYRotate(){
+            ny=ny+1;
+            y.style.transform="rotateY(" + ny + "deg)";
+            if (ny==180 || ny>=360){
+                clearInterval(rotYINT);
+                if(ny>=360){ny=0}
+            }
+        }
+    </script>
+</body>
+</html>
