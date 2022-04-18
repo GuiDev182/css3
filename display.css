@@ -1,26 +1,27 @@
-div, span{
-    border: 1px solid #000;
-    margin: 10px;
+#d1, #d2, #s1, #s2{
     width: 200px;
     height: 200px;
+    border: 1px solid #000;
+    margin: 10px;
 }
 
 #d1{
     display: block; /* estilo blocos*/
     /*display: none; /* desabilita o elemento */ 
     /*visibility: hidden; /* Apenas deixa o elemento invisivel */ 
+  
 }
 #s1{
     display: inline;    /* estilo em uma linha*/
+  
 }
-
 #d2{
     display: block;
 }
 
-
 #s2{
     display: inline-block; /* estilo em uma linha respeitando os padroes block*/
+ 
 }
 
 p{
@@ -58,4 +59,51 @@ li{
 
 .titulo{
     background-color: turquoise;
+}
+
+section{
+    border: 3px solid #f00;
+    display: flex;
+    min-width: 500px; /* tamanho minimo do container*/
+    flex-wrap: wrap; /* quebra de linha no elemento*/
+    justify-content: center; /* alinhamento horizontal dos elementos*/
+    align-items: center; /* alinhamento vertical dos elementos*/
+    flex-direction: row; /* direção dos elementos*/
+
+}
+
+section div{
+    border: 1px solid #000;
+    height: 50px;
+    /*flex: 1; /* ajusta a largura do elemento filho ao elemento pai(grow shrink basis)*/
+}
+
+#div1{
+    order: 1; /* muda a ordem dos elementos*/
+    width: 100px;
+    flex-grow: 1; /* expande o elemento*/
+}
+
+#div2{
+    order: 2;
+    width: 100px;
+}
+#div3{
+    order: 3;
+    width: 100px;
+    flex-basis: 50% ; /* quantidade de ocupação do container*/
+}
+#div4{
+    order: 4;
+    width: 100px;
+}
+#div5{
+    order: 5;
+    width: 100px;
+    flex-shrink: 1; /* retrai o elemento*/
+}
+#div6{
+    order: 6;
+    width: 100px;
+    flex-grow: 1;
 }
