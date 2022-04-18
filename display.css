@@ -22,3 +22,40 @@ div, span{
 #s2{
     display: inline-block; /* estilo em uma linha respeitando os padroes block*/
 }
+
+p{
+    border: 1px solid #000;
+    background-color: tomato;
+    width: 200px;
+    height: 200px;
+    display: table-cell; /* se comporta como uma célula de tabela*/
+    text-align: center; /* alinha o texto na horizontal*/
+    vertical-align: middle; /*alinha o texto na vertical*/
+   
+}
+
+ol, ul, li {
+    border: 1px solid #000;
+    margin: 0px;
+    padding: 0px;
+    
+}
+
+ol{
+    display: table;
+    width: 300px;
+    margin-top: 10px;
+}
+
+ul{
+    display: table-row;
+}
+
+li{
+    display: table-cell;
+    text-align: center;
+}
+
+.titulo{
+    background-color: turquoise;
+}
