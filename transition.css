@@ -1,0 +1,88 @@
+#linear{
+    width: 300px;
+    height: 250px;
+    border: 1px solid #000;
+    border-radius: 10px;
+    padding: 10px;
+    text-align: justify;
+    transition: width 1s, height 1s, color 1s, background-color 1s transform 1s; /*transição de elemento*/
+    transition-timing-function: linear; /*tempo de transição do inicio ao fim*/
+}
+
+#linear:hover{
+    width: 500px;
+    height: 120px;
+    background-color: #f00;
+    color: #fff;
+}
+
+#ease-in{
+    width: 300px;
+    height: 250px;
+    border: 1px solid #000;
+    border-radius: 10px;
+    padding: 10px;
+    text-align: justify;
+    transition: width 1s, height 1s, color 1s, background-color 1s; /*transição de elemento*/
+    transition-timing-function: ease-in; /*começa devagar e termina rapido*/
+}
+
+#ease-in:hover{
+    width: 500px;
+    height: 120px;
+    background-color: #f00;
+    color: #fff;
+}
+#ease-out{
+    width: 300px;
+    height: 250px;
+    border: 1px solid #000;
+    border-radius: 10px;
+    padding: 10px;
+    text-align: justify;
+    transition: width 1s, height 1s, color 1s, background-color 1s; /*transição de elemento*/
+    transition-timing-function: ease-out; /*começa rapido e termina devagar*/
+}
+
+#ease-out:hover{
+    width: 500px;
+    height: 120px;
+    background-color: #f00;
+    color: #fff;
+}
+
+#cubic-bezier{
+    width: 300px;
+    height: 250px;
+    border: 1px solid #000;
+    border-radius: 10px;
+    padding: 10px;
+    text-align: justify;
+    transition: width 1s, height 1s, color 1s, background-color 1s; /*transição de elemento*/
+    transition-timing-function: cubic-bezier(0.5,0,0.5,1); /*(x,y,x,y)*/
+}
+
+#cubic-bezier:hover{
+    width: 500px;
+    height: 120px;
+    background-color: #f00;
+    color: #fff;
+}
+#transition-delay{
+    width: 300px;
+    height: 250px;
+    border: 1px solid #000;
+    border-radius: 10px;
+    padding: 10px;
+    text-align: justify;
+    transition: color 1s, background-color 1s, transform 1s; /*transição de elemento*/
+    transition-timing-function: linear;
+    transition-delay: 0s; /* atraso */
+}
+
+#transition-delay:hover{
+    background-color: #f00;
+    color: #fff;
+    transform: rotate(180deg);
+}
+

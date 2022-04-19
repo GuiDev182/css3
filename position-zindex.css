@@ -1,0 +1,39 @@
+body{
+    margin: 0px;
+    padding: 0px;
+}
+
+div{
+    border: 1px solid #000;
+    background: #ddd;
+}
+
+#d0{
+    width: 700px;
+    height: 500px;
+    background: #ddd;
+    position: absolute;
+    top: 150px;
+    left: 300px;
+}
+
+#d1, #d2, #d3{
+    width: 300px;
+    height: 150px;
+}
+
+#d1{
+    position: static; /* será posicionado em relação ao elemento anterior*/
+}
+
+#d2{
+    position: relative; /*posição do elemento do container*/
+    top: 100px; /*distancia do topo*/
+    left: 50px;/* distancia da margem esquerda*/
+}
+
+#d3{
+    position: fixed; /* posição em relação ao body*/
+    top: 50px;
+    left: 50px;
+}

@@ -1,0 +1,36 @@
+@keyframes anima1{
+    0%{left: 500px; top: 500px}
+    14%{left: 0px; top: 0px}
+    28%{background-color: #fff;left: 0px;top: 0px;}
+    42%{background-color: #f00;left: 0px;top: 0px;}
+    57%{background-color: #f00;left: 0px;top: 0px;}
+    71%{background-color: #fff;left: 0px;top: 0px;}
+    85%{left: 0px; top: 0px;}
+    100%{left: 500px; top: 500px;}
+}
+@keyframes anima2{
+    0%{left: 0px; top: 0px}
+    25%{left: 500px; top: 0px}
+    50%{left: 500px; top: 500px;}
+    75%{left: 0px; top: 500px;}
+    100%{left: 0px; top: 0px;}
+}
+p{
+    position: relative;
+    left: 500px;
+    top: 500px;
+    width: 260px;
+    height: 260px;
+    border: 1px solid #000;
+    border-radius: 10px;
+    padding: 10px;
+    text-align: justify;
+    animation-name: anima1, anima2; /* chamar a animação*/
+    animation-duration: 8s; /*duração da animação*/
+    animation-timing-function: linear; /*estilo da animação*/
+    animation-delay: 0s; /* delay da animação(animacão 1,animação 2)*/
+    animation-iteration-count: 2; /* vezes de repetição da animação*/ 
+    animation-play-state: running; /* estado da animação*/
+    animation-direction: alternate; /* direção da animação*/
+}
+

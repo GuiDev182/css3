@@ -1,22 +1,19 @@
 *{
-    margin: 0px;
-    padding: 0px;
+    outline: 1px solid #000;
 }
 
-ul {
+nav{
+    justify-content: flex-end;
     background-color: rgb(184, 46, 46);
     display: flex;
-    list-style-type: none;
-    justify-content: end;
     flex-wrap: wrap;
-
 }
 
-li{
-    margin-left: 50px;
-    padding: 10px;
-    margin-right: 10px;   
-    
+nav a{
+    width: 150px;
+    min-width: 150px;
+    max-width: 150px;
+    display: flex;
 }
 div{
     border: 1px solid #000;
@@ -30,9 +27,13 @@ section{
     margin: 10px;
 }
 
-#footer{
+footer{
     display: flex;
     justify-content: center;
     background-color: #909090;
     color: white;
+}
+header{
+    display: flex;
+    height: 150px;
 }

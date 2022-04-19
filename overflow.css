@@ -1,0 +1,10 @@
+#d1{
+    border: 1px solid #000;
+    width: 300px;
+    height: 300px;
+    overflow: auto; /* coloca uma barra de rolagem automatica*/
+}
+
+#img1{
+    border: 1px solid #f00;
+}

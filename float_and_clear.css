@@ -1,0 +1,16 @@
+img{
+    border: 1px solid #000;
+}
+
+#img1{
+    float: left;
+}
+
+#img2{
+    float: right;
+    width: 100px;
+}
+
+.fix{
+    clear: both; /*cancela o float*/
+}

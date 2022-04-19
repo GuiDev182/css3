@@ -1,0 +1,19 @@
+p{
+    font-size: 30px;
+}
+
+p.first-letter::first-letter{ /* edita somente a primeira letra*/
+    font-size: 40px;
+    color: blue;
+}
+
+p.first-line::first-line{ /*edita somente a primeira linha*/
+    font-size: 40px;
+    background-color: yellow;
+}
+
+::selection{ /*edita o texto selecionado*/
+    color: #0f0;
+    background: red;
+    
+}

@@ -1,0 +1,11 @@
+#before::before{  /* coloca um elemento antes do elemento*/
+    content: url(img/marcador.png);
+}
+
+p{
+    font-size: 50px;
+}
+
+#after::after{
+    content: url(img/marcador.png);
+}
