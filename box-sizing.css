@@ -1,0 +1,14 @@
+#d1 {
+    width: 300px;
+    height: 200px;
+    border: 10px solid #000;
+    padding: 25px;
+    box-sizing: border-box; /* tamanho real do elemento,tirando o padding e o border*/
+}
+#d2 {
+    width: 300px;
+    height: 200px;
+    border: 0px;
+    padding: 0px;
+    background: #888;
+}

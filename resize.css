@@ -1,0 +1,17 @@
+div{
+    border-radius: 10px;
+    width: 300px;
+    height: 200px;
+    padding: 10px;
+    resize: both;
+    overflow: hidden;
+    
+}
+
+img{
+    width: 100%;
+}
+
+div:hover{
+    border: 3px solid #000;
+}

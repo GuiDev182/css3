@@ -1,0 +1,12 @@
+p{
+    border: 1px solid #000;
+    border-radius: 10px;
+    width: 800px;
+    height: 500px;
+    position: relative;
+    padding: 10px;
+    text-align: justify;
+    columns: 2; /* cria colunas*/
+    column-gap: 50px; /* distancia entre as colunas*/
+    column-rule:1px solid; /* insere uma linha divisoria entre as colunas*/
+}

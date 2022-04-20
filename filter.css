@@ -1,0 +1,40 @@
+#img1{
+    filter: grayscale(100%); /* escala de cinza*/
+    width: 500px;
+}
+#img2{
+    filter: blur(4px); /* embaçamento*/
+    width: 500px;
+}
+#img3{
+    filter: brightness(30%); /* brilho*/
+    width: 500px;
+}
+#img4{
+    filter: contrast(50%); /* contraste*/
+    width: 500px;
+}
+#img5{
+    filter: drop-shadow(10px 10px 5px red); /* sombra projetada(distX,distY,tamanho,cor)*/
+    width: 500px;
+}
+#img6{
+    filter: hue-rotate(180deg); /*matix*/
+    width: 500px;
+}
+#img7{
+    filter: invert(1); /* inverte cores*/
+    width: 500px;
+}
+#img8{
+    filter: opacity(40%); /* opacidade*/
+    width: 500px;
+}
+#img9{
+    filter: saturate(30%); /* saturação*/
+    width: 500px;
+}
+#img10{
+    filter: sepia(100%); /* envelhecer*/
+    width: 500px;
+}
