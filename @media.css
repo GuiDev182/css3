@@ -1,4 +1,4 @@
-@media screen and (min-width:400px) and (max-width:400px) {
+/*@media screen and (min-width:400px) and (max-width:400px) {
      body{
         background-color: #f00;
     }
@@ -12,9 +12,72 @@
      body{
         background-color: #00f;
     }
-} 
-
+} */
+/*
 img{
     width: 300px;
 }
 
+body{
+    background: #ff0;
+}
+
+@media screen and (max-width:400px) and (orientation:portrait) {
+    body{
+       background: #f00; 
+    }
+}
+@media screen and (max-width:400px) and (orientation:landscape) {
+    body{
+       background: rgb(35, 12, 247); 
+    }
+}*/
+
+nav {
+    width: 200px;
+    float: left;
+}
+
+nav ul{
+    padding: 0px;
+    margin: 0px;
+}
+nav li{
+    background: #d55;
+    color: #fff;
+    border: #ddd solid 1px;
+    border-radius: 4px;
+    list-style-type: none;
+    margin: 4px;
+    padding: 2px;
+}
+
+article{
+    margin-left: 216px;
+}
+
+@media screen and (min-width:0px) and (max-width:500px) {
+    nav{
+        width: 100%;
+
+    }
+    article{
+        margin-left: 4px;
+        
+    }
+    article p{
+        text-align: justify;
+    }
+    nav li{
+        font-size: 20px;
+    }
+}
+
+@media screen and (min-width: 500px) and (max-width: 800px) {
+    nav li{
+        font-size: 20px;
+    }
+    article div{
+        float: left;
+    }
+}
