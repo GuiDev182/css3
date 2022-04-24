@@ -1,0 +1,78 @@
+body{
+    font-family: arial;
+    color: #000;
+}
+.item{
+    margin: 5px;
+    padding: 5px;
+    background: #447;
+    text-align: center;
+    font-size: 1em;
+    color: #fff;
+}
+
+.container{
+    max-width: 500px;
+    margin: 0 auto;
+    border: 1px solid #000;
+}
+
+
+.flex{
+    display: flex;
+}
+
+.horizontal{
+    flex-direction: row; /* padrão*/
+}
+
+.vertical{
+    flex-direction: column; /* colunas*/
+}
+
+.flexwrap{
+    flex-wrap: wrap; /* quebra de linha*/
+}
+
+.flexflow{
+    flex-flow: row wrap ; /* direção e quebra de linha */
+}
+
+.justfycontent{
+    justify-content: center; /* direção dos elementos no eixo X*/
+    border: 1px solid #000;
+}
+
+.alignitens{
+    border: 1px solid #000;
+    align-items: flex-end; /* direção do eixo Y*/
+    height: 150px;
+}
+
+.flexgrow{
+    border: 1px solid #000;
+    flex-grow: 1; /* aumentar ou diminuir em relação ao container*/
+}
+
+.flexgrow2{
+    flex-grow: 2;
+}
+
+.flexgrow3{
+    flex-grow: 3;
+}
+
+.flexbasis{
+    border: 1px solid #000; 
+    flex-basis: 1; /* ajusta o elemento de acordo com o conteudo*/
+}
+
+.flexbasis2{
+    flex-basis: 2;
+    border: 1px solid #000;
+    
+}
+.flexbasis3{
+    flex-basis: 3;
+    border: 1px solid #000;
+}
